@@ -1818,3 +1818,5 @@ section .container {
 .txtColorBorder .container  h3{color:#fff !important } /*#FABE08*/
 .txtColorBorder .container{color:#fff !important }
 .mapaGoogle .panel-grid-cell .widget_sow-google-map {max-width: 100%; padding: 0px  !important; width: 100% !important;}
+
+.clasNovaTeste {}
