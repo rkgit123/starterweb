@@ -1820,3 +1820,9 @@ section .container {
 .mapaGoogle .panel-grid-cell .widget_sow-google-map {max-width: 100%; padding: 0px  !important; width: 100% !important;}
 
 .clasNovaTeste {}
+<<<<<<< HEAD
+.testeLaia{}
+=======
+
+.ClassNova{}
+>>>>>>> 1242101834a904cb71c120b72df36d1b92d94821
