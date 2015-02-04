@@ -127,7 +127,7 @@ class Moesia_Latest_News extends WP_Widget {
 						</div>
 					<?php endwhile; ?>
 				</div>
-				<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="all-news"><?php echo __('See all our news', 'moesia'); ?></a>
+				<!-- <a href="<?php // echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="all-news"><?php //echo __('Veja todas !', 'moesia'); ?></a> -->
 			</div>
 		<?php if ($image_uri != '') : ?>
 			<style type="text/css">

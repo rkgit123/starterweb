@@ -110,7 +110,7 @@ table > tfoot > tr > td {
 Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	display: none !important;
+	display: block;
 	float: left;
 }
 .main-navigation ul {
@@ -122,14 +122,14 @@ Menus
 .main-navigation li {
 	float: left;
 	position: relative;
-	padding: 40px 10px;
+	padding: 40px 10px !important;
 	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #428BCA;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
@@ -831,8 +831,9 @@ Galleries
 Structure
 --------------------------------------------------------------*/
 .site-branding {
-	float: none;
-	padding: 10px 5px;
+	float: left;
+	padding: 10px 5px !important;
+	padding-top: 10px !important;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -1320,8 +1321,9 @@ Header
 	width: 100%;
 	z-index: 99999;
 	background-color: #222;
-	opacity: 0.9;
-	display: block;		
+	opacity: 1;
+	display: block;
+	border-bottom: 1px solid #428BCA;		
 }
 .overlay {
 	background: url('images/pattern.png');
@@ -1807,8 +1809,8 @@ section .container {
   }
 }
 .top-bar{
-		position: relative !important;
-		height: 125px !important;
+		
+		
 		}
 /*
 .txtColorBorder .container h3{text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff !important;}
@@ -1819,9 +1821,7 @@ section .container {
 .txtColorBorder .container{color:#fff !important }
 .mapaGoogle .panel-grid-cell .widget_sow-google-map {max-width: 100%; padding: 0px  !important; width: 100% !important;}
 
-.clasNovaTeste {}
-
-.testeLaia{}
-
-.ClassNova{font-size:20px}
-
+.service-desc p, .employee-desc p, .entry-summary p, .contact-address, .contact-phone ,.contact-email{font-size: 16px; color: #808080;}
+.blog-post img {height: 250px !important;}
+.blog-post .entry-thumb {text-align: center;}
+.displayNone{display: none !important;}

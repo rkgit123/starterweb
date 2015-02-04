@@ -105,7 +105,14 @@
 			</div>
 			<button class="menu-toggle btn"><i class="fa fa-bars"></i></button>
 			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<?php if ( is_front_page() ) {
+    					// Menu principal caso for pagina principal
+			   			   wp_nav_menu( array( 'theme_location' => 'primary' ) );
+						} else {
+						    // Caso for no blog
+						    wp_nav_menu( array('menu' => 'menu-blog' )  );
+						}
+				 ?>
 			</nav><!-- #site-navigation -->
 		</div>
 	</div>	
