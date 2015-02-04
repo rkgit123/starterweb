@@ -1821,6 +1821,7 @@ section .container {
 .txtColorBorder .container{color:#fff !important }
 .mapaGoogle .panel-grid-cell .widget_sow-google-map {max-width: 100%; padding: 0px  !important; width: 100% !important;}
 
+
 .service-desc p, .employee-desc p, .entry-summary p, .contact-address, .contact-phone ,.contact-email{font-size: 16px; color: #808080;}
 .blog-post img {height: 250px !important;}
 .blog-post .entry-thumb {text-align: center;}
